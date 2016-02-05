@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appwidget_min_width">240dip</dimen>
+    <dimen name="appwidget_min_height">260dip</dimen>
+    <dimen name="appwidget_width">100dip</dimen>
+    <dimen name="appwidget_button_width">60dip</dimen>
+    <dimen name="appwidget_button_height">40dip</dimen>
+    <dimen name="appwidget_textview_height">50dip</dimen>
+    <dimen name="appwidget_margin_top">10dip</dimen>
+</resources>

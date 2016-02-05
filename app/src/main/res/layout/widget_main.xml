@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget_formula"
+        style="@style/DisplayEditTextStyle.Formula.Widget"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:inputType="text|textNoSuggestions"
+        android:textColor="@color/display_formula_text_color" />
+
+    <TextView
+        android:id="@+id/widget_result"
+        style="@style/DisplayEditTextStyle.Result.Widget"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:textColor="@color/display_result_text_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/PadLayoutStyle.Numeric.Widget"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pad_numeric_background_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                style="@style/PadButtonStyle.Operator.Text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/widget_7"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_7" />
+
+            <Button
+                android:id="@+id/widget_4"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_4" />
+
+            <Button
+                android:id="@+id/widget_1"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_1" />
+
+            <Button
+                android:id="@+id/widget_point"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/dec_point" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/PadLayoutStyle.Numeric.Widget"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pad_numeric_background_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                style="@style/PadButtonStyle.Operator.Text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/widget_8"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_8" />
+
+            <Button
+                android:id="@+id/widget_5"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_5" />
+
+            <Button
+                android:id="@+id/widget_2"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_2" />
+
+            <Button
+                android:id="@+id/widget_0"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/PadLayoutStyle.Numeric.Widget"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pad_numeric_background_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/widget_clr"
+                style="@style/PadButtonStyle.Operator.Text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_clr"
+                android:gravity="center"
+                android:text="@string/clr" />
+
+            <Button
+                android:id="@+id/widget_9"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_9" />
+
+            <Button
+                android:id="@+id/widget_6"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_6" />
+
+            <Button
+                android:id="@+id/widget_3"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/digit_3" />
+
+            <Button
+                android:id="@+id/widget_eq"
+                style="@style/PadButtonStyle.Numeric.Equals"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_eq"
+                android:gravity="center"
+                android:text="@string/eq" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/PadLayoutStyle.Operator.Widget"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pad_operator_background_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/widget_del"
+                style="@style/PadButtonStyle.Operator.Text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_del"
+                android:gravity="center"
+                android:text="@string/del" />
+
+            <Button
+                android:id="@+id/widget_div"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_op_div"
+                android:gravity="center"
+                android:text="@string/op_div" />
+
+            <Button
+                android:id="@+id/widget_mul"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_op_mul"
+                android:gravity="center"
+                android:text="@string/op_mul" />
+
+            <Button
+                android:id="@+id/widget_sub"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_op_sub"
+                android:gravity="center"
+                android:text="@string/op_sub" />
+
+            <Button
+                android:id="@+id/widget_add"
+                style="@style/PadButtonStyle.Numeric.Widget"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc_op_add"
+                android:gravity="center"
+                android:text="@string/op_add" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
